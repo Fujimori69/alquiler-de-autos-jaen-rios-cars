@@ -46,7 +46,8 @@ a {
 
 .banner {
   background: url("../images/alquiler_de_autos_jaen_banner.jpg");
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   padding: 300px 0 200px;
@@ -60,7 +61,7 @@ a {
   content: "";
   position: absolute;
   width: 100vw;
-  height: 108%;
+  height: 102.45%;
   background: black;
   top: 0;
   opacity: 50%;
@@ -109,9 +110,18 @@ a {
   background: white;
 }*/
 
-@media (max-width: 950px) {
+@media (max-width: 480px) {
+  #logo_rios_cars {
+    width: 150px;
+    margin-left: 15px;
+  }
+
   .banner {
-    padding: 400px 0;
+    padding: 350px 0;
+  }
+
+  .banner::before {
+    height: 115.2%;
   }
 
   .banner h2 {
