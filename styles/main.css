@@ -1,0 +1,120 @@
+header {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+}
+
+#logo_rios_cars {
+  width: 250px;
+  margin-left: 50px;
+}
+a {
+  color: white;
+}
+.navbar {
+  padding: 20px 0;
+}
+.navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: white;
+}
+.nav-item {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.nav-link {
+  color: white;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover,
+.navbar-expand-md .navbar-nav .nav-item.active .nav-link {
+  background: rgba(3, 192, 3, 0.452);
+  color: white;
+}
+.navbar-expand-md .navbar-nav .nav-item.active .nav-link {
+  color: white;
+  /*padding: 5px 15px;*/
+}
+.navbar-toggler {
+  color: white;
+}
+
+.banner {
+  background: url(../images/alquiler_de_autos_jaen_banner.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0 200px;
+}
+.container{
+  z-index: 10;
+  position: relative;
+}
+
+.banner::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  top: 0;
+  opacity: 50%;
+}
+
+#elementos {
+  margin-left: auto;
+}
+
+.banner h2 {
+  margin: 0;
+  padding-right: 10%;
+  font-size: 1.5em;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+}
+
+.banner p {
+  margin-top: 5%;
+  padding-right: 20%;
+  font-size: 1em;
+  font-weight: 600;
+  color: white;
+}
+
+.btn_1 {
+  display: inline-block;
+  margin: 1em 0 0;
+  background: rgba(3, 192, 3, 0.452);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.btn_1:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+/*
+.navbar-collapse {
+  background: white;
+}*/
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 300px 0;
+  }
+
+  .banner h2 {
+    font-size: 1.2em;
+  }
+}
