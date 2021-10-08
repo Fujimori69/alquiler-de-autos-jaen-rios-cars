@@ -45,19 +45,19 @@ a {
 }
 
 .banner {
-  background: url(../images/alquiler_de_autos_jaen_banner.jpg);
+  background: url(./images/alquiler_de_autos_jaen_banner.jpg);
   min-height: 100vh;
   background-size: cover;
   background-position: center;
   padding: 300px 0 200px;
 }
-.container{
+.container {
   z-index: 10;
   position: relative;
 }
 
-.banner::before{
-  content: '';
+.banner::before {
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
