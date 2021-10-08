@@ -45,7 +45,7 @@ a {
 }
 
 .banner {
-  background: url(./images/alquiler_de_autos_jaen_banner.jpg);
+  background: url("../images/alquiler_de_autos_jaen_banner.jpg");
   min-height: 100vh;
   background-size: cover;
   background-position: center;
