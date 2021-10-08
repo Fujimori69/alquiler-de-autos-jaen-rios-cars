@@ -109,9 +109,9 @@ a {
   background: white;
 }*/
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .banner {
-    padding: 300px 0;
+    padding: 400px 0;
   }
 
   .banner h2 {
