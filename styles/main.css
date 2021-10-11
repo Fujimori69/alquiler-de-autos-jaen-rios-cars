@@ -110,6 +110,25 @@ a {
   background: white;
 }*/
 
+@media (max-width: 768px) {
+  #logo_rios_cars {
+    width: 150px;
+    margin-left: 15px;
+  }
+
+  .banner {
+    padding: 365px 0;
+  }
+
+  .banner::before {
+    height: 119.9%;
+  }
+
+  .banner h2 {
+    font-size: 1.5em;
+  }
+}
+/*
 @media (max-width: 480px) {
   #logo_rios_cars {
     width: 150px;
@@ -128,3 +147,4 @@ a {
     font-size: 1.2em;
   }
 }
+*/
